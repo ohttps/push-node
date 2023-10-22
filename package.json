@@ -1,0 +1,22 @@
+{
+  "name": "push-node",
+  "version": "1.0.0",
+  "description": "push ssl certificate to push-node by socket.io",
+  "main": "push-node.js",
+  "scripts": {
+    "start": "babel-node ./src/push-node.js",
+    "build": "babel ./src --out-dir ./build",
+    "pkg": "npm install && npm run build && pkg -t node18-win-arm64,node18-win-x64,node18-macos-arm64,node18-macos-x64,node18-alpine-arm64,node18-alpine-x64,node18-linux-arm64,node18-linux-x64  --no-bytecode --public-packages '*' --public --out-path dist ./build/push-node.js"
+  },
+  "author": "service@ohttps.com",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
