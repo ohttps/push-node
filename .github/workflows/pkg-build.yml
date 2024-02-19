@@ -48,8 +48,6 @@ jobs:
         with:
           files: |
             ./dist/push-node-alpine-arm64
-            ./dist/push-node-alpine-armv6
-            ./dist/push-node-alpine-armv7
             ./dist/push-node-alpine-x64
             ./dist/push-node-linux-arm64
             ./dist/push-node-linux-armv6
