@@ -50,8 +50,6 @@ jobs:
             ./dist/push-node-alpine-arm64
             ./dist/push-node-alpine-x64
             ./dist/push-node-linux-arm64
-            ./dist/push-node-linux-armv6
-            ./dist/push-node-linux-armv7
             ./dist/push-node-linux-x64
             ./dist/push-node-macos-arm64
             ./dist/push-node-macos-x64

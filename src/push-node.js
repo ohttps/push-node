@@ -10,7 +10,7 @@ const processArgs = getProcessArgs()
 // OHTTPS中创建的部署节点ID
 const PUSH_NODE_ID = processArgs['node-id'] || process.env.PUSH_NODE_ID
 // OHTTPS中创建的部署节点令牌
-const PUSH_NODE_TOKEN = processArgs['node-token'] || process.env.PUSH_NODE_ID
+const PUSH_NODE_TOKEN = processArgs['node-token'] || process.env.PUSH_NODE_TOKEN
 // OHTTPS的SOCKET服务地址
 const PUSH_SOCKET_URL = processArgs['socket-url'] || process.env.PUSH_SOCKET_URL || 'https://socket.ohttps.com/'
 // 证书文件首次下载后执行的启动命令

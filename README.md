@@ -58,10 +58,6 @@ nginx、httpd、openresty 等服务的 docker 容器可结合 push-node，实现
     * https://github.com/ohttps/push-node/releases/download/1.0.0/push-node-macos-arm64
 * push-node-macos-x64：
     * https://github.com/ohttps/push-node/releases/download/1.0.0/push-node-macos-x64
-* push-node-win-arm64.exe：
-    * https://github.com/ohttps/push-node/releases/download/1.0.0/push-node-win-arm64.exe
-* push-node-win-x64.exe：
-    * https://github.com/ohttps/push-node/releases/download/1.0.0/push-node-win-x64.exe
 * 注意：**使用时请根据系统架构自行选择合适的二进制包**
 * 注意：**最新版本请查看[release](https://github.com/ohttps/push-node/releases)列表**
 
